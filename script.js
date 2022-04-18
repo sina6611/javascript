@@ -1,5 +1,16 @@
 
-/*let i=1;
+/*let circuit={
+    radius:1,
+    position:{
+        x:1,
+        y:3,
+    },
+    draw:function(){console.log("drow")}
+
+}
+
+circuit.draw();
+let i=1;
 while(i<=100){
 if(i==58){
     i++
