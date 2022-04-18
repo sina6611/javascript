@@ -1,11 +1,21 @@
-function circles(radius){
+function circuts(radius){
+this.radius=radius
+this.draw=function(){console.log("draw")}
+
+}
+
+
+/*function circles(radius){
 
    return{ radius,
     draw(){console.log("draw");}
    }
 }
 
-/*let circuit={
+let circuil1=circles(5);
+console.log(circuil1);
+
+let circuit={
     radius:1,
     position:{
         x:1,
