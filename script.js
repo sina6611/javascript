@@ -1,4 +1,7 @@
-function circuts(radius){
+adam={aname:"Sina"};
+adam.familyname="Barbaz Esfahani";
+adam.senegooya=function(){console.log("man 34 sale hastam")};
+/*function circuts(radius){
 this.radius=radius
 this.draw=function(){console.log("draw")}
 
@@ -7,7 +10,7 @@ let circuit1=new circuts(5);
 console.log(circuit1);
 
 
-/*function circles(radius){
+function circles(radius){
 
    return{ radius,
     draw(){console.log("draw");}
