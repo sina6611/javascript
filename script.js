@@ -1,3 +1,9 @@
+function circles(radius){
+
+   return{ radius,
+    draw(){console.log("draw");}
+   }
+}
 
 /*let circuit={
     radius:1,
