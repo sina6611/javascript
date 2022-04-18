@@ -3,6 +3,8 @@ this.radius=radius
 this.draw=function(){console.log("draw")}
 
 }
+let circuit1=new circuts(5);
+console.log(circuit1);
 
 
 /*function circles(radius){
